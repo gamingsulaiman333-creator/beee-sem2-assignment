@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Basic Electrical and Electronics Engineering - Interactive learning modules covering DC Circuits, AC Circuits, Electrical Machines, Diodes, and BJT & Power Devices.">
+    <title>BEEE — Basic Electrical &amp; Electronics Engineering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- ==================== HOME PAGE ==================== -->
+    <section id="home" class="page active">
+        <div class="container">
+            <header class="hero">
+                <div class="hero-badge">⚡ Interactive Learning Platform</div>
+                <h1 class="hero-title">
+                    Basic Electrical &amp;<br>
+                    <span class="gradient-text">Electronics Engineering</span>
+                </h1>
+                <p class="hero-subtitle">Select a Module to Begin</p>
+                <div class="hero-line"></div>
+            </header>
+
+            <div class="modules-grid">
+                <!-- Module 1 -->
+                <div class="module-card" data-module="1" id="card-module-1">
+                    <div class="card-glow"></div>
+                    <div class="card-number">01</div>
+                    <div class="card-icon">⚡</div>
+                    <h2 class="card-title">DC Circuits</h2>
+                    <p class="card-desc">Ohm's Law, Kirchhoff's Laws, Mesh & Nodal Analysis</p>
+                    <div class="card-topics">9 Topics</div>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Module 2 -->
+                <div class="module-card" data-module="2" id="card-module-2">
+                    <div class="card-glow"></div>
+                    <div class="card-number">02</div>
+                    <div class="card-icon">🔌</div>
+                    <h2 class="card-title">AC Circuits</h2>
+                    <p class="card-desc">Sinusoidal Voltage, Phasors, Power Factor & Resonance</p>
+                    <div class="card-topics">7 Topics</div>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="module-card" data-module="3" id="card-module-3">
+                    <div class="card-glow"></div>
+                    <div class="card-number">03</div>
+                    <div class="card-icon">⚙️</div>
+                    <h2 class="card-title">Electrical Machines</h2>
+                    <p class="card-desc">DC Generator, Motor, Transformer & Induction Motor</p>
+                    <div class="card-topics">5 Topics</div>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Module 4 -->
+                <div class="module-card" data-module="4" id="card-module-4">
+                    <div class="card-glow"></div>
+                    <div class="card-number">04</div>
+                    <div class="card-icon">💡</div>
+                    <h2 class="card-title">Diodes &amp; Applications</h2>
+                    <p class="card-desc">PN Junction, Rectifiers, Clippers, Clampers & Zener</p>
+                    <div class="card-topics">6 Topics</div>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Module 5 -->
+                <div class="module-card" data-module="5" id="card-module-5">
+                    <div class="card-glow"></div>
+                    <div class="card-number">05</div>
+                    <div class="card-icon">🔋</div>
+                    <h2 class="card-title">BJT &amp; Power Devices</h2>
+                    <p class="card-desc">BJT Configurations, SCR, TRIAC, UPS & SMPS</p>
+                    <div class="card-topics">10 Topics</div>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="home-footer">
+                <p>Built for BEEE Students &nbsp;·&nbsp; KTU Curriculum</p>
+            </footer>
+        </div>
+    </section>
+
+    <!-- ==================== MODULE 1 — DC Circuits ==================== -->
+    <section id="module-1" class="page module-page">
+        <div class="container">
+            <button class="back-btn" id="back-btn-1" onclick="goHome()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12" />
+                    <polyline points="12 19 5 12 12 5" />
+                </svg>
+                <span>Back to Modules</span>
+            </button>
+
+            <div class="module-header">
+                <div class="module-badge">Module 01</div>
+                <h1 class="module-title">DC Circuits</h1>
+                <p class="module-subtitle">Fundamentals of Direct Current circuit analysis and theorems</p>
+            </div>
+
+            <div class="topics-section">
+                <h2 class="section-heading">
+                    <span class="heading-icon">📚</span> Topics Covered
+                </h2>
+                <div class="topics-grid">
+                    <div class="topic-card"><span class="topic-num">01</span><span class="topic-name">Voltage, Current,
+                            Power, Energy</span></div>
+                    <div class="topic-card"><span class="topic-num">02</span><span class="topic-name">Ohm's Law</span>
+                    </div>
+                    <div class="topic-card"><span class="topic-num">03</span><span class="topic-name">Kirchhoff's
+                            Laws</span></div>
+                    <div class="topic-card"><span class="topic-num">04</span><span class="topic-name">Series and
+                            Parallel Circuits</span></div>
+                    <div class="topic-card"><span class="topic-num">05</span><span class="topic-name">Voltage Division
+                            Rule</span></div>
+                    <div class="topic-card"><span class="topic-num">06</span><span class="topic-name">Current Division
+                            Rule</span></div>
+                    <div class="topic-card"><span class="topic-num">07</span><span class="topic-name">Source
+                            Transformation</span></div>
+                    <div class="topic-card"><span class="topic-num">08</span><span class="topic-name">Mesh
+                            Analysis</span></div>
+                    <div class="topic-card"><span class="topic-num">09</span><span class="topic-name">Nodal
+                            Analysis</span></div>
+                </div>
+            </div>
+
+            <div class="downloads-section">
+                <h2 class="section-heading">
+                    <span class="heading-icon">📥</span> Downloads
+                </h2>
+                <div class="download-cards">
+                    <a href="Module I Assignment.pdf" download class="download-card" id="download-m1-assignment">
+                        <div class="dl-icon">📄</div>
+                        <div class="dl-info">
+                            <span class="dl-title">Assignment Notes</span>
+                            <span class="dl-size">PDF • ~389 KB</span>
+                        </div>
+                        <div class="dl-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MODULE 2 — AC Circuits ==================== -->
+    <section id="module-2" class="page module-page">
+        <div class="container">
+            <button class="back-btn" id="back-btn-2" onclick="goHome()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12" />
+                    <polyline points="12 19 5 12 12 5" />
+                </svg>
+                <span>Back to Modules</span>
+            </button>
+
+            <div class="module-header">
+                <div class="module-badge">Module 02</div>
+                <h1 class="module-title">AC Circuits</h1>
+                <p class="module-subtitle">Alternating Current circuit analysis, phasors, and power</p>
+            </div>
+
+            <div class="topics-section">
+                <h2 class="section-heading">
+                    <span class="heading-icon">📚</span> Topics Covered
+                </h2>
+                <div class="topics-grid">
+                    <div class="topic-card"><span class="topic-num">01</span><span class="topic-name">Sinusoidal
+                            Voltage</span></div>
+                    <div class="topic-card"><span class="topic-num">02</span><span class="topic-name">RMS, Average, Peak
+                            Value</span></div>
+                    <div class="topic-card"><span class="topic-num">03</span><span class="topic-name">RL, RC, RLC
+                            Circuits</span></div>
+                    <div class="topic-card"><span class="topic-num">04</span><span class="topic-name">Phasor
+                            Representation</span></div>
+                    <div class="topic-card"><span class="topic-num">05</span><span class="topic-name">Power
+                            Factor</span></div>
+                    <div class="topic-card"><span class="topic-num">06</span><span class="topic-name">Resonance</span>
+                    </div>
+                    <div class="topic-card"><span class="topic-num">07</span><span class="topic-name">Star and Delta
+                            Connections</span></div>
+                </div>
+            </div>
+
+            <div class="downloads-section">
+                <h2 class="section-heading">
+                    <span class="heading-icon">📥</span> Downloads
+                </h2>
+                <div class="download-cards">
+                    <a href="MODULE 2.pdf" download class="download-card" id="download-m2-notes">
+                        <div class="dl-icon">📘</div>
+                        <div class="dl-info">
+                            <span class="dl-title">Module Notes</span>
+                            <span class="dl-size">PDF • ~850 KB</span>
+                        </div>
+                        <div class="dl-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="Module II Assignment.pdf" download class="download-card" id="download-m2-assignment">
+                        <div class="dl-icon">📄</div>
+                        <div class="dl-info">
+                            <span class="dl-title">Assignment</span>
+                            <span class="dl-size">PDF • ~367 KB</span>
+                        </div>
+                        <div class="dl-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MODULE 3 — Electrical Machines ==================== -->
+    <section id="module-3" class="page module-page">
+        <div class="container">
+            <button class="back-btn" id="back-btn-3" onclick="goHome()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12" />
+                    <polyline points="12 19 5 12 12 5" />
+                </svg>
+                <span>Back to Modules</span>
+            </button>
+
+            <div class="module-header">
+                <div class="module-badge">Module 03</div>
+                <h1 class="module-title">Electrical Machines</h1>
+                <p class="module-subtitle">Motors, generators, and transformers — the workhorses of electrical
+                    engineering</p>
+            </div>
+
+            <div class="topics-section">
+                <h2 class="section-heading">
+                    <span class="heading-icon">📚</span> Topics Covered
+                </h2>
+                <div class="topics-grid">
+                    <div class="topic-card"><span class="topic-num">01</span><span class="topic-name">DC
+                            Generator</span></div>
+                    <div class="topic-card"><span class="topic-num">02</span><span class="topic-name">DC Motor</span>
+                    </div>
+                    <div class="topic-card"><span class="topic-num">03</span><span class="topic-name">Transformer</span>
+                    </div>
+                    <div class="topic-card"><span class="topic-num">04</span><span class="topic-name">Induction
+                            Motor</span></div>
+                    <div class="topic-card"><span class="topic-num">05</span><span class="topic-name">BLDC Motor</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="downloads-section">
+                <h2 class="section-heading">
+                    <span class="heading-icon">📥</span> Downloads
+                </h2>
+                <div class="download-cards">
+                    <a href="MODULE III.pdf" download class="download-card" id="download-m3-notes">
+                        <div class="dl-icon">📘</div>
+                        <div class="dl-info">
+                            <span class="dl-title">Module Notes</span>
+                            <span class="dl-size">PDF • ~792 KB</span>
+                        </div>
+                        <div class="dl-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="Module III Assignment.pdf" download class="download-card" id="download-m3-assignment">
+                        <div class="dl-icon">📄</div>
+                        <div class="dl-info">
+                            <span class="dl-title">Assignment</span>
+                            <span class="dl-size">PDF • ~248 KB</span>
+                        </div>
+                        <div class="dl-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MODULE 4 — Diodes & Applications ==================== -->
+    <section id="module-4" class="page module-page">
+        <div class="container">
+            <button class="back-btn" id="back-btn-4" onclick="goHome()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12" />
+                    <polyline points="12 19 5 12 12 5" />
+                </svg>
+                <span>Back to Modules</span>
+            </button>
+
+            <div class="module-header">
+                <div class="module-badge">Module 04</div>
+                <h1 class="module-title">Diodes &amp; Applications</h1>
+                <p class="module-subtitle">Semiconductor diodes, rectifiers, and their practical applications</p>
+            </div>
+
+            <div class="topics-section">
+                <h2 class="section-heading">
+                    <span class="heading-icon">📚</span> Topics Covered
+                </h2>
+                <div class="topics-grid">
+                    <div class="topic-card"><span class="topic-num">01</span><span class="topic-name">PN Junction
+                            Diode</span></div>
+                    <div class="topic-card"><span class="topic-num">02</span><span class="topic-name">Rectifiers</span>
+                    </div>
+                    <div class="topic-card"><span class="topic-num">03</span><span class="topic-name">Clippers</span>
+                    </div>
+                    <div class="topic-card"><span class="topic-num">04</span><span class="topic-name">Clampers</span>
+                    </div>
+                    <div class="topic-card"><span class="topic-num">05</span><span class="topic-name">Zener Diode</span>
+                    </div>
+                    <div class="topic-card"><span class="topic-num">06</span><span class="topic-name">LED</span></div>
+                </div>
+            </div>
+
+            <div class="downloads-section">
+                <h2 class="section-heading">
+                    <span class="heading-icon">📥</span> Downloads
+                </h2>
+                <div class="download-cards">
+                    <a href="MODULE IV.pdf" download class="download-card" id="download-m4-notes">
+                        <div class="dl-icon">📘</div>
+                        <div class="dl-info">
+                            <span class="dl-title">Module Notes</span>
+                            <span class="dl-size">PDF • ~817 KB</span>
+                        </div>
+                        <div class="dl-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="Module IV Assignment Questions.pdf" download class="download-card"
+                        id="download-m4-assignment">
+                        <div class="dl-icon">📄</div>
+                        <div class="dl-info">
+                            <span class="dl-title">Assignment Questions</span>
+                            <span class="dl-size">PDF • ~366 KB</span>
+                        </div>
+                        <div class="dl-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MODULE 5 — BJT & Power Devices ==================== -->
+    <section id="module-5" class="page module-page">
+        <div class="container">
+            <button class="back-btn" id="back-btn-5" onclick="goHome()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12" />
+                    <polyline points="12 19 5 12 12 5" />
+                </svg>
+                <span>Back to Modules</span>
+            </button>
+
+            <div class="module-header">
+                <div class="module-badge">Module 05</div>
+                <h1 class="module-title">BJT &amp; Power Devices</h1>
+                <p class="module-subtitle">Transistor configurations, thyristors, and power supply systems</p>
+            </div>
+
+            <div class="topics-section">
+                <h2 class="section-heading">
+                    <span class="heading-icon">📚</span> Topics Covered
+                </h2>
+                <div class="topics-grid">
+                    <div class="topic-card"><span class="topic-num">01</span><span class="topic-name">BJT
+                            Configurations</span></div>
+                    <div class="topic-card"><span class="topic-num">02</span><span class="topic-name">Common
+                            Emitter</span></div>
+                    <div class="topic-card"><span class="topic-num">03</span><span class="topic-name">Common Base</span>
+                    </div>
+                    <div class="topic-card"><span class="topic-num">04</span><span class="topic-name">Common
+                            Collector</span></div>
+                    <div class="topic-card"><span class="topic-num">05</span><span class="topic-name">SCR</span></div>
+                    <div class="topic-card"><span class="topic-num">06</span><span class="topic-name">TRIAC</span></div>
+                    <div class="topic-card"><span class="topic-num">07</span><span class="topic-name">Charging
+                            Circuit</span></div>
+                    <div class="topic-card"><span class="topic-num">08</span><span class="topic-name">UPS</span></div>
+                    <div class="topic-card"><span class="topic-num">09</span><span class="topic-name">SMPS</span></div>
+                    <div class="topic-card"><span class="topic-num">10</span><span class="topic-name">Fan
+                            Regulator</span></div>
+                </div>
+            </div>
+
+            <div class="downloads-section">
+                <h2 class="section-heading">
+                    <span class="heading-icon">📥</span> Downloads
+                </h2>
+                <div class="download-cards">
+                    <a href="MODULE V.pdf" download class="download-card" id="download-m5-notes">
+                        <div class="dl-icon">📘</div>
+                        <div class="dl-info">
+                            <span class="dl-title">Module Notes</span>
+                            <span class="dl-size">PDF • ~628 KB</span>
+                        </div>
+                        <div class="dl-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
